@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swaroop's Portfolio</title>
+    <!-- Favicons------- -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles2.css">
+    <!-- FontAwosome Cdn ------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- logo --------->
+                <img src="logo-no-background.png" class="logo" alt="Logo_512x512.png">
+                <!-- Nav |Menu------- -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i onclick="closemenu()" class="fa-solid fa-circle-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <section>
+                <div class="left">
+                    <div class="header-text">
+                        <p class="TypeOwn">Web Developer</p>
+                        <h1>Hi, I'm <span> Swaroop </span> Harsh <br> from Gwalior</h1>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <img src="Coder_Img.gif" alt="Coder_Img">
+                </div>
+            </section>
+
+
+        </div>
+    </div>
+    <!-- -----------about section ------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <!-- left -->
+                <div class="about-col-1">
+                    <img src="my.jpeg" alt="Black_4by5">
+                </div>
+                <!-- right -->
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am passionate Website Developer. I started my first coding language which was "C" in my Diploma college Dr. B.R. Ambedkar Polytechnic College.
+                        I learned it by self, by errors and offline help manual given in TurboC compiler.
+                       
+                       By Upgrading my Self, Now I have a great experience in C, C++, Java and Android apps development, Website development in php, HTML.
+                       
+                       I have developed Brain Tumor Detection using IDE jupyter notebook in Diploma college, in Machine learning and python.
+                       Now, Learning New Technologies..... Updating MySelf.
+
+                    </p>
+
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('Interest')">Interest
+                        </div>
+
+                        <div class="tab-links" onclick="opentab('Experience')">Experience
+                        </div>
+
+                        <div class="tab-links" onclick="opentab('Education')"> Education
+                        </div>
+                    </div>
+
+                    <!-- Skills tab Started ----------- -->
+                    <div class="tab-contents active-tab" id="Interest">
+                        <ul>
+                            <li>
+                                <span>favorite technologies</span>
+                                <br>React.js: I love the flexibility and speed that React offers, and the ability to
+                                create reusable components makes development a breeze. <br> Bootstrap: Bootstrap is my
+                                go-to for quickly prototyping and creating responsive designs
+                                that look great on any device.
+                                <br>
+                              
+                            </li>
+                            <li>
+                                <span>Open Source Contributions</span>
+                                <br>I am interested to contributed to the React Bootstrap library by submitting bug fixes and
+                                enhancements, and it was a great experience when i collaborate with other developers to
+                                improve the project.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Experience Tab started--------- -->
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                           
+                            <li>
+                                <span>Web Development</span>
+                                <br>I pursuing a Web developer Intern at Technohacks.
+                                Now i made projects like my personal Portfolio,Calculator and Login Page. 
+                                
+                            </li>
+                            <li>
+                                <span>Graphic Designer</span>
+                                <br>I work as a Graphic Designer Intern at NTG Infotech Pvt. Ltd.
+                                There i was worked on Adobe Photoshop,Adobe Illustrator, Adobe Express
+                                i make logo Designing,social media posts,Customized Wallpaper.
+                            
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Education Tab started------------- -->
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li>
+                                <span>Pursuing Becholer of Computer science </span>
+                                <br>Shriram College of Engineering and Management, Bamore.
+                            </li>
+                            <li>
+                                <span>Polytechnic Diploma</span>
+                                <br>Computer Science,   
+                                Dr. Bhimrao Ambedkar Polytechnic College,Gwalior
+                            </li>
+                            <li>
+                                <span>Higher Secondary Education </span>
+                                <br>I have completed HSC from The Orchid's High. Sec. 
+                                School, Gwalior
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------Skill Section -------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <p>I develop my skills Regularly</p>
+
+            <div class="skilllist">
+               
+                <div class="skill-col2">
+                    <div class="skill-columns">
+                        <p><span>01</span> HTML CSS</p>
+                        <p><span>02</span> Javascript</p>
+                        <p><span>03</span> Mysql</p>
+                        <p><span>04</span> React</p>
+                        <p><span>05</span> Java</p>
+                        <p><span>06</span> Android Studio</p>
+                        <p><span>07</span> Linux</p>
+                        <p><span>08</span> Bootstrap</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------Projects section started ----------------- -->
+    <div id="Projects">
+        <div class="container">
+            <!-- Title of  -->
+            <h1 class="sub-title">My Work <span>(Projects)</span></h1>
+            <div class="work-list">
+
+                <!-- work box 1------- -->
+                <div class="work">
+                    <img src="Attendance.png">
+                    <div class="layer">
+                        <h3>Attendance System For SRCEM</h3>
+                        <p>Streamline College Attendance with Our Advanced Online Tracking System!
+                        </p>
+
+                        <a href="./WEB/E-commerce/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- work box 2-------- -->
+                <div class="work">
+                    <img src="MusicPlayer.png">
+                    <div class="layer">
+                        <h3>Swappify Music</h3>
+                        <p>Elevate Your Tunes with Swappify: Your Ultimate Music Player!
+                        </p>
+                        <a href="../WEB/Music/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- work box 3---------- -->
+                <div class="work">
+                    <img src="Screenshot 2023-06-26 203653.png">
+                    <div class="layer">
+                        <h3>Swappypify Shopping</h3>
+                        <p>Discover and Shop Seamlessly with Swappyify: Your Ultimate Ecommerce Destination!
+                        </p>
+
+                        <a href="Cal.html"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Button here--------- -->
+            <a href="./index2.html" target="_blank" class="btn"> See More <i
+                    class="fa-solid fa-up-right-from-square"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- contact tab ------------- -->
+    <div id="contact">
+        <div class="container">
+
+            <div class="row">
+                <!-- left section---------- -->
+                <div class="contact-left">
+                    <h1 class="sub-title"> Contact Me</h1>
+                    <p>
+                        <i class="fa-solid fa-envelope"></i></i>swaroop.h28@gmail.com
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-phone"></i>+91 6261871481
+                    </p>
+
+                    <!-- social icons--------- -->
+                    <div class="social-icons">
+
+                        <a href="https://github.com/Swaroop2809" target="_blank"><i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/swaroop-harsh-0a64a8253/"><i class="fa-brands fa-linkedin"></i>
+                        </a>
+
+                        <a href="https://join.skype.com/invite/xqOvFdHX7RCx"><i class="fa-brands fa-skype"></i>
+                        </a>
+
+                        <a href="https://twitter.com/unique_person28"><i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+
+                    <!-- Resume button -------------- -->
+                    <a href="https://drive.google.com/file/d/14HySPutcdutKqWASuLN8s36BU1jMsLjV/view?usp=sharing"
+                        target="_blank" class="btn "> Resume
+                    </a>
+                </div>
+
+                <!-- right section ------------- -->
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="What do you want to say?"></textarea>
+
+                        <!-- form Button -------- -->
+                        <button type="submit" class="btn btn2"> Send <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </form>
+                    <!-- sent message ---------- -->
+                    <span id="msg"> </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Added ----------------- -->
+        <div class="copyright">
+            <p>
+                <i class="fa-regular fa-copyright"></i> &nbsp; Swaroop Harsh | 2023 | All rights reserved
+            </p>
+        </div>
+    </div>
+
+    <!-- ------------- javascript script added here--------- -->
+
+    <!--  Script for Tablinks and classname ----------->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <!-- for side menu javascript --------------->
+    <script>
+
+        let sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0"
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <!-- for contact form updation ------------- -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyDTD17PRykBrmRpfZeHLXfooTtVoUV5v6DL0ig2TYHMNVmL9VFjlNkp5fhoBdXPG-d/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Your response has been submited !"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 3000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+
+    <!-- for typwriting effect ------------- -->
+    <script>
+        let title = document.querySelector('.TypeOwn')
+        let name = "Web Developer";
+            
+        let index = 1;
+
+        const Typewriter = () => {
+            let new_title = name.slice(0, index);
+            title.innerHTML = new_title;
+
+            index > name.length ? index = 1 : index++;
+
+            setTimeout(() => Typewriter(), 100)
+        }
+        Typewriter();
+    </script>
+
+
+    <!--  Script for Tablinks and classname ---------------->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+</body>
+
+</html>
